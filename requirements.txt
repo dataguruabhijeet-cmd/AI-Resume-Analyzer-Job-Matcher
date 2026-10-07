@@ -1,0 +1,20 @@
+# Core
+streamlit>=1.35
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+plotly>=5.20
+
+# NLP
+nltk>=3.8
+spacy>=3.7
+
+# Resume parsing
+pdfplumber>=0.11
+python-docx>=1.1
+
+# Optional - semantic matching (downloads ~90 MB model on first use)
+# sentence-transformers>=2.7
+
+# Optional - only needed to regenerate assets/sample_resume.pdf
+# reportlab>=4.0
